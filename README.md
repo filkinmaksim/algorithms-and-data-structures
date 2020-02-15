@@ -1,2 +1,3 @@
-# algorithms-and-data-structures
-Алгоритмы и структуры данных 2 курс, мехмат
+# ФІЛЬКІН МАКСИМ АНДРІЙОВИЧ
+
+E-olymp: https://www.e-olymp.com/ru/users/FilkinKuiv
