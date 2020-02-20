@@ -2,7 +2,7 @@
 using namespace std;
 
 
-int bsearch_leftmost(vector <int> array, int x){
+int bsearch_rightmost(vector <int> array, int x){
     int l = 0, r = array.size() - 1;
     while (r - l > 1){
         int m = l + ((r - l ) >> 1);
@@ -29,6 +29,6 @@ int main(){
     while(m--){
         int x;
         cin >> x;
-        cout << bsearch_leftmost(array,x)  << endl;
+        cout << bsearch_rightmost(array,x)  << endl;
     }
 }
