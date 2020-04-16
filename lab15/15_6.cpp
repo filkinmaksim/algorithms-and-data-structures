@@ -25,7 +25,7 @@ int main(){
 		--x, --y;
 		a[y].push_back(x);
 	}
-	scanf("%d",&k);
+	cin >> k;
 	for(int i = 0; i < k; ++i){
 		cin >> t >> x;
 		--t, --x;
