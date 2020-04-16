@@ -19,15 +19,15 @@ void dfs(int v){
 }
 
 int main(){
-	scanf("%d%d",&n,&m);
+	cin >> n >> m;
 	for(int i = 0; i < m; ++i){
-		scanf("%d%d",&x,&y);
+		cin >> x >> y;
 		--x, --y;
 		a[y].push_back(x);
 	}
 	scanf("%d",&k);
 	for(int i = 0; i < k; ++i){
-		scanf("%d%d",&t,&x);
+		cin >> t >> x;
 		--t, --x;
 		last[x][t] = i + 1;
 	}
@@ -44,6 +44,7 @@ int main(){
 			ans[v] |= (ans[a[v][j]] && (max(last[a[v][j]][2],last[a[v][j]][3]) > last[a[v][j]][4]));
 	}
 	for(int i = 0; i < n; ++i)
-		printf("%d%c", ans[i], i < n-1 ? ' ' : '\n');
+		cout << ans[i] << ' ';
+	cout << endl;
 	return 0;
 }
