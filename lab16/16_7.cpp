@@ -42,7 +42,7 @@ public:
     } // Вставка числа val в Бинарное Дерево Поиска
     
     int IsSameTree(Tree p){
-        set <int> a,b;
+        multiset <int> a,b;
         queue <TreeNode*> q;
         if (head)
             q.push(head);
