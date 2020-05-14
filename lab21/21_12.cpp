@@ -46,7 +46,7 @@ void rec(int i){
  
 int main(){
     int t;
-	  cin >> t;
+    cin >> t;
     a.resize(n);
     while(t--){
 	    ans = n + 1;
