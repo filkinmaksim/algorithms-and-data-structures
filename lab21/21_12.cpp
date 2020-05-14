@@ -49,15 +49,15 @@ int main(){
     cin >> t;
     a.resize(n);
     while(t--){
-	    ans = n + 1;
+      ans = n + 1;
       b = vector <int> (n, - 1);
       for (int i = 0; i < n; i++){   
-        cin >> a[i];  
-		    a[i]--;    
-	    }
+          cin >> a[i];  
+          a[i]--;    
+      }
       rec(0);    
       cout << ans;
-	  }   
+    }   
     
     return 0;
 }
